@@ -26,9 +26,9 @@ void loop() {
 
   // Kiểm tra xem màu có phải là màu trắng hay không
   if (c > WHITE_THRESHOLD) {
-    Serial.println("Detected color is White");
+    Serial.println("detected color là màu trắng");
   } else {
-    Serial.println("Detected color is NOT White");
+    Serial.println("detected color ko là màu trắng");
   }
 
   // Đợi 1 giây trước khi đọc lại
