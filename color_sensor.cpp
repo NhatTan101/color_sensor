@@ -1,5 +1,5 @@
 #include <Wire.h>
-#include "Adafruit_TCS34725.h"
+#include <Adafruit_TCS34725.h>
 
 // Khởi tạo đối tượng TCS34725
 Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS34725_GAIN_4X);
